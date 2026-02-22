@@ -2,13 +2,21 @@
   "name": "javaezz",
   "displayName": "javaezz",
   "description": "Java productivity shortcuts",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "SankaraNarayananK",
   "engines": {
     "vscode": "^1.109.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+  "java",
+  "snippets",
+  "productivity",
+  "intellisense",
+  "boilerplate"
+],
   "repository": {
     "type": "git",
     "url": "https://github.com/sankar1912/javaezz"
