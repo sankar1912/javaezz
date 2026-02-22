@@ -1,65 +1,180 @@
-# javaezz README
+# 🚀 JavaEzz
 
-This is the README for your extension "javaezz". After writing up a brief description, we recommend including the following sections.
+**Enterprise-grade Java productivity snippets for Visual Studio Code**
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+JavaEzz accelerates Java development by providing smart, IntelliJ-style snippet expansions directly inside VS Code.
 
 ---
 
-## Working with Markdown
+## ✨ Features
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+### 🔹 `sout`
+Type:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+```
+sout
+```
 
-## For more information
+Expands to:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+```java
+System.out.println();
+```
 
-**Enjoy!**
+---
+
+### 🔹 `cc` – Create Class
+Type:
+
+```
+cc
+```
+
+Expands to:
+
+```java
+public class FileName {
+
+    public FileName() {
+
+    }
+
+}
+```
+
+✔ Automatically uses the current file name  
+✔ Constructor generated automatically  
+
+---
+
+### 🔹 `ci` – Create Interface
+Type:
+
+```
+ci
+```
+
+Expands to:
+
+```java
+public interface FileName {
+
+}
+```
+
+✔ Automatically uses the current file name  
+
+---
+
+## 🎯 Why JavaEzz?
+
+- ⚡ Faster Java coding
+- 🧠 IntelliJ-style live templates
+- 🧩 Clean IntelliSense dropdown integration
+- 🏗 Enterprise-ready architecture
+- 📈 Designed to scale with 50+ future snippets
+
+---
+
+## 🛠 Installation
+
+### From Marketplace
+
+1. Open **Extensions** in VS Code
+2. Search for **JavaEzz**
+3. Click **Install**
+
+---
+
+## 📦 Requirements
+
+- VS Code `^1.70.0`
+- Java language support enabled
+
+---
+
+## ⌨ Usage
+
+Start typing:
+
+```
+sout
+cc
+ci
+```
+
+Then press:
+
+```
+Enter
+```
+
+Or manually trigger suggestions:
+
+```
+Ctrl + Space
+```
+
+---
+
+## 🧱 Architecture
+
+JavaEzz is built with a modular, enterprise-grade structure:
+
+- Snippet Manager abstraction
+- Template separation
+- Completion provider isolation
+- Scalable snippet registry
+
+Designed for long-term extensibility.
+
+---
+
+## 🗺 Roadmap
+
+Upcoming features:
+
+- 🔹 Auto package detection
+- 🔹 Main method template
+- 🔹 Getters/Setters generator
+- 🔹 Spring Boot controller template
+- 🔹 JUnit test template
+- 🔹 Lombok templates
+- 🔹 Context-aware snippets
+- 🔹 Configurable prefixes
+
+---
+
+## 🐛 Report Issues
+
+Found a bug or want a feature?
+
+Open an issue on GitHub:
+```
+https://github.com/yourusername/javaezz
+```
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## ⭐ Support
+
+If JavaEzz improves your workflow:
+
+- ⭐ Leave a review on the Marketplace
+- ⭐ Star the GitHub repository
+
+---
+
+## 👨‍💻 Author
+
+Developed with precision for Java developers who value speed and clean architecture.
+
+---
+
+**Happy Coding! 🚀**
